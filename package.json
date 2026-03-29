@@ -1,0 +1,16 @@
+{
+  "name": "groceries",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "groceries": "./src/cli.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "chalk": "^5.0.0",
+    "commander": "^12.0.0",
+    "playwright": "^1.49.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
